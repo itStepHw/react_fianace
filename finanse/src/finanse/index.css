@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.balance-box {
+    width: 200px;
+    text-align: center;
+    background-color: #edf2f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.balance-box h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.balance-box h3 {
+    margin: 10px 0 0;
+    font-size: 32px;
+    color: #28a745;
+}
+
+.profits-expenses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.profits, .expenses {
+    width: 400px;
+    background-color: #edf2f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profits h3, .expenses h3 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.profit-item, .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profit-item p, .expense-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profit-item button, .expense-item button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profit-item button:hover, .expense-item button:hover {
+    background-color: #c82333;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.total-expense, .total-profit {
+    color: #6c757d;
+}
+
+.add-transaction {
+    width: 400px;
+}
+
+.add-transaction h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
